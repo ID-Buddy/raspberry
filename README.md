@@ -26,7 +26,14 @@
 - gevent==21.8.0
 
 
+## Additional Notes
 
+### Update Pip and Setuptools
+Ensure that `pip` and `setuptools` are updated to the latest versions before installing the required libraries:
+
+```bash
+pip install --upgrade pip setuptools
+```
 
 Learn how to install Dlib and Face_Recognition on your Raspberry Pi for efficient face detection and recognition
 
