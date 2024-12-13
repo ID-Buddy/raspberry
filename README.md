@@ -10,7 +10,7 @@
 ## Python Environment
 
 - **Python Version:** 3.9 or higher
-- **Virtual Environment:** Python `venv` or `virtualenv` is recommended.
+- **Virtual Environment:** Python venv or virtualenv is recommended.
 
 ## Required Libraries
 
