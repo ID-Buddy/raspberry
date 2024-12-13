@@ -14,16 +14,16 @@
 
 ## Required Libraries
 
-flask==2.1.3
-flask-socketio==5.2.0
-picamera2
-opencv-python-headless==4.5.3.56
-numpy==1.21.2
-face_recognition==1.3.0
-dlib==19.22.99
-mtcnn==0.1.0
-eventlet==0.31.0
-gevent==21.8.0
+- flask==2.1.3
+- flask-socketio==5.2.0
+- picamera2
+- opencv-python-headless==4.5.3.56
+- numpy==1.21.2
+- face_recognition==1.3.0
+- dlib==19.22.99
+- mtcnn==0.1.0
+- eventlet==0.31.0
+- gevent==21.8.0
 
 
 
