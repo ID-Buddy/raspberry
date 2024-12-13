@@ -9,49 +9,49 @@ To install Dlib on your Raspberry Pi, follow these detailed steps to ensure a sm
 
 ## Step 1: Update Your System
 Before starting the installation, it's crucial to update your system packages. Open a terminal and run the following commands:
-
+```bash
 sudo apt update
 sudo apt upgrade
-
+```
 ## Step 2: Install Required Dependencies
 Dlib requires several libraries to function correctly. Install the necessary dependencies with the following command:
-
+```bash
 sudo apt install build-essential cmake python3-dev python3-pip libatlas-base-dev
-
+```
 ## Step 3: Install Dlib
 Now, you can install Dlib using pip. It's recommended to use a virtual environment to avoid conflicts with other packages. First, install the virtual environment package:
-
+```bash
 sudo pip3 install virtualenv
-
+```
 Create a new virtual environment:
-
+```bash
 virtualenv dlib_env
 
 Activate the virtual environment:
 
 source dlib_env/bin/activate
-
+```
 Now, install Dlib:
-
+```bash
 pip install dlib
-
+```
 ## Step 4: Install face_recognition
 To use Dlib for face recognition, you can install the face_recognition library, which simplifies the process. Run the following command in your activated virtual environment:
-
+```bash
 pip install face_recognition
-
+```
 ## Step 5: Verify the Installation
 To ensure that Dlib and face_recognition are installed correctly, you can run a simple Python script. Create a new Python file and add the following code:
-
+```bash
 import dlib
 import face_recognition
 
 print("Dlib and face_recognition installed successfully!")
-
+```
 Run the script:
-
+```bash
 python your_script_name.py
-
+```
 If you see the success message, your installation is complete!
 
 ## Additional Resources
