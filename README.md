@@ -2,6 +2,21 @@
 안면실인증을 위한 서비스: 라즈베리파이 서버
 
 
+
+## Operating System
+
+- Raspberry Pi OS (64-bit), latest version recommended.
+
+## Python Environment
+
+- **Python Version:** 3.9 or higher
+- **Virtual Environment:** Python `venv` or `virtualenv` is recommended.
+
+## Required Libraries
+
+
+
+
 Learn how to install Dlib and Face_Recognition on your Raspberry Pi for efficient face detection and recognition
 
 ## Installing Dlib on Raspberry Pi
