@@ -26,9 +26,9 @@ sudo pip3 install virtualenv
 Create a new virtual environment:
 ```bash
 virtualenv dlib_env
-
+```
 Activate the virtual environment:
-
+```bash
 source dlib_env/bin/activate
 ```
 Now, install Dlib:
